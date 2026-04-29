@@ -132,7 +132,7 @@ function Hero() {
             animation: 'float 5s ease-in-out infinite',
           }}>
             <img
-              src="/hero-portrait.png"
+              src={`${import.meta.env.BASE_URL}hero-portrait.png`}
               alt="Hetvi Khatri illustration"
               style={{
                 width: '100%',
