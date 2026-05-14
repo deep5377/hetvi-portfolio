@@ -8,7 +8,7 @@ function Contact() {
   ]
 
   return (
-    <div style={{ position: 'relative', zIndex: 3 }}>
+    <div id="contact" style={{ position: 'relative', zIndex: 3 }}>
       <section style={{
         padding: '120px 48px 80px',
         background: 'transparent',
@@ -57,19 +57,40 @@ function Contact() {
             })}
           </div>
 
-          <a href="mailto:hetvikkhatri@gmail.com" style={{
-            display: 'inline-block',
-            padding: '14px 36px',
-            borderRadius: 100,
-            background: '#1a1a1a',
-            color: '#fff',
-            fontSize: 14,
-            fontWeight: 600,
-            textDecoration: 'none',
-            fontFamily: "'DM Sans', sans-serif",
+          <div style={{
+            display: 'flex',
+            gap: 12,
+            justifyContent: 'center',
+            flexWrap: 'wrap',
           }}>
-            hetvikkhatri@gmail.com
-          </a>
+            <a href="mailto:hetvikkhatri@gmail.com" style={{
+              display: 'inline-block',
+              padding: '14px 36px',
+              borderRadius: 100,
+              background: '#1a1a1a',
+              color: '#fff',
+              fontSize: 14,
+              fontWeight: 600,
+              textDecoration: 'none',
+              fontFamily: "'DM Sans', sans-serif",
+            }}>
+              hetvikkhatri@gmail.com
+            </a>
+
+            <a href="tel:+19452162322" style={{
+              display: 'inline-block',
+              padding: '14px 36px',
+              borderRadius: 100,
+              background: '#E67E22',
+              color: '#fff',
+              fontSize: 14,
+              fontWeight: 600,
+              textDecoration: 'none',
+              fontFamily: "'DM Sans', sans-serif",
+            }}>
+              (945) 216-2322
+            </a>
+          </div>
         </div>
       </section>
 

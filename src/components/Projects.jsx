@@ -2,10 +2,10 @@ function Projects() {
   var projects = [
     {
       title: 'Increasing E-commerce Sales Through Full-Funnel Marketing Strategy',
-      tagline: "Good marketing doesn't just bring traffic — it brings the right traffic and converts it.",
+      tagline: "Good marketing doesn't just bring traffic, it brings the right traffic and converts it.",
       objective: 'Increase website traffic, improve conversion rates, and drive consistent online sales for a consumer product brand.',
       color: '#E67E22',
-      strategy: 'Built a full-funnel digital strategy combining high-intent traffic from SEO and paid ads, on-site conversion optimization, and retargeting — so awareness, consideration, and conversion worked together seamlessly.',
+      strategy: 'Built a full-funnel digital strategy combining high-intent traffic from SEO and paid ads, on-site conversion optimization, and retargeting so awareness, consideration, and conversion worked together seamlessly.',
       results: [
         { value: '↑', label: 'Organic + Paid Traffic' },
         { value: '↑', label: 'Conversion Rate' },
@@ -15,10 +15,10 @@ function Projects() {
     },
     {
       title: 'Driving Website Adoption at Trade Shows',
-      tagline: 'Getting people to visit a new website is easy. Getting them to actually use it — in a busy trade show — is the real challenge.',
+      tagline: 'Getting people to visit a new website is easy. Getting them to actually use it, in a busy trade show  is the real challenge.',
       objective: 'Drive website traffic and encourage trade show customers to start using a new platform for ordering.',
       color: '#3B82F6',
-      strategy: 'Introduced a QR-code-led digital strategy across all touchpoints with a curiosity hook — "Scan me for a surprise discount" — turning passive viewing into active participation with trackable performance.',
+      strategy: 'Introduced a QR-codeled digital strategy across all touchpoints with a curiosity hook "Scan me for a surprise discount" turning passive viewing into active participation with trackable performance.',
       results: [
         { value: '600+', label: 'QR Scans / Day' },
         { value: 'High', label: 'Intent Traffic' },
@@ -31,7 +31,7 @@ function Projects() {
       tagline: 'Managing marketing for a trade show is one thing. Handling everything, single-handedly, is another.',
       objective: 'Plan and execute a complete marketing strategy to promote an in-house trade show and drive attendance across all channels.',
       color: '#F59E42',
-      strategy: 'Built a pre-planned content and campaign system instead of handling tasks day-by-day — creating everything in advance and scheduling it for smooth, uninterrupted execution across digital and physical channels.',
+      strategy: 'Built a pre-planned content and campaign system instead of handling tasks day-by-day, creating everything in advance and scheduling it for smooth, uninterrupted execution across digital and physical channels.',
       results: [
         { value: '100%', label: 'On-Time Execution' },
         { value: 'Multi', label: 'Channel Coverage' },
@@ -41,7 +41,7 @@ function Projects() {
     },
     {
       title: 'Driving Sales for Slow-Moving Candy Inventory',
-      tagline: "Moving non-selling products isn't just about promotion — it's about the right mix of pricing, positioning, and visibility.",
+      tagline: "Moving non-selling products isn't just about promotion  it's about the right mix of pricing, positioning, and visibility.",
       objective: 'Increase sales and clear slow-moving candy inventory by targeting wholesale customers and driving purchase intent.',
       color: '#10B981',
       strategy: 'Combined pricing incentive + targeted marketing + in-store visibility — repositioning the offer with a strategic discount, dedicated end-cap displays, paid ads, and website banner support.',

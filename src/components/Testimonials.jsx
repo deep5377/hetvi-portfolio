@@ -1,9 +1,9 @@
 function Testimonials() {
   var quotes = [
-    { text: 'Hetvi has an incredible ability to translate brand vision into social campaigns that actually perform. Her data-driven approach consistently delivers above-target results.', author: 'Marketing Director', color: '#E67E22' },
+    { text: 'Hetvi has an incredible ability to translate brand vision into social campaigns that actually perform. Her data-driven approach consistently delivers above target results.', author: 'Marketing Director', color: '#E67E22' },
     { text: 'Working with Hetvi transformed our digital presence. She brought structure to our content strategy and the engagement numbers speak for themselves.', author: 'Brand Manager', color: '#3B82F6' },
-    { text: 'Her ability to manage cross-functional campaigns while keeping everything on-brand and on-time is remarkable. A true marketing leader.', author: 'Creative Lead', color: '#F59E42' },
-    { text: 'Hetvi does not just execute campaigns — she understands the why behind every metric. That strategic thinking sets her apart.', author: 'VP of Marketing', color: '#8B5CF6' },
+    { text: 'Her ability to manage cross-functional campaigns while keeping everything on brand and on-time is remarkable. A true marketing leader.', author: 'Creative Lead', color: '#F59E42' },
+    { text: 'Hetvi does not just execute campaigns, she understands the why behind every metric. That strategic thinking sets her apart.', author: 'VP of Marketing', color: '#8B5CF6' },
   ]
 
   return (

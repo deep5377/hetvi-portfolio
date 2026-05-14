@@ -42,7 +42,7 @@ function Navbar() {
         </div>
 
         <div style={{ display: 'flex', gap: 24, alignItems: 'center' }}>
-          <a href="mailto:hetvikkhatri@gmail.com" style={linkStyle}>Contact me ↗</a>
+          <a href="#contact" style={linkStyle}>Contact me ↗</a>
           <button
             onClick={function() { setShowResume(true) }}
             style={{
