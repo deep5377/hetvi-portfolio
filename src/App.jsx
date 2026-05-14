@@ -2,7 +2,7 @@ import Navbar from './components/Navbar'
 import ParticleBackground from './components/ParticleBackground'
 import Hero from './components/Hero'
 import RoleSwitcher from './components/RoleSwitcher'
-import Experience from './components/Experience'
+import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Hero />
         <RoleSwitcher />
-        <Experience />
+        <Projects />
         <Skills />
         <Testimonials />
         <Contact />
