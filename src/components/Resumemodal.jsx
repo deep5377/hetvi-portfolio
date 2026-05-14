@@ -1,11 +1,11 @@
-function ResumeModal({ isOpen, onClose }) {
-  if (!isOpen) return null
+function ResumeModal(props) {
+  if (!props.isOpen) return null
 
   var pdfUrl = `${import.meta.env.BASE_URL}Hetvi_Khatri_Resume.pdf`
 
   return (
     <div
-      onClick={onClose}
+      onClick={props.onClose}
       style={{
         position: 'fixed',
         top: 0,
@@ -37,7 +37,6 @@ function ResumeModal({ isOpen, onClose }) {
           animation: 'scaleIn 0.3s ease',
         }}
       >
-        {/* Header */}
         <div style={{
           padding: '20px 28px',
           borderBottom: '1px solid #eee',
@@ -61,7 +60,7 @@ function ResumeModal({ isOpen, onClose }) {
               color: '#888',
               marginTop: 2,
             }}>
-              Marketing Specialist · Digital & Social Strategy
+              Marketing Specialist
             </div>
           </div>
 
@@ -78,17 +77,13 @@ function ResumeModal({ isOpen, onClose }) {
                 fontSize: 13,
                 fontWeight: 600,
                 fontFamily: "'DM Sans', sans-serif",
-                display: 'flex',
-                alignItems: 'center',
-                gap: 6,
-                transition: 'all 0.2s',
               }}
             >
-              ↓ Download
+              Download
             </a>
 
             <button
-              onClick={onClose}
+              onClick={props.onClose}
               style={{
                 width: 36,
                 height: 36,
@@ -96,24 +91,19 @@ function ResumeModal({ isOpen, onClose }) {
                 border: '1px solid #ddd',
                 background: '#fff',
                 cursor: 'pointer',
-                fontSize: 18,
+                fontSize: 16,
                 color: '#666',
-                fontWeight: 500,
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
               }}
             >
-              ✕
+              X
             </button>
           </div>
         </div>
 
-        {/* PDF Viewer */}
-        <div style={{ flex: 1, background: '#f5f5f5', overflow: 'hidden' }}>
+        <div style={{ flex: 1, background: '#f5f5f5' }}>
           <iframe
             src={pdfUrl}
-            title="Hetvi Khatri Resume"
+            title="Resume"
             style={{
               width: '100%',
               height: '100%',
